@@ -61,18 +61,18 @@ html {
 }
 
 ::selection {
-    background-color: #1abc9c;
+    background-color: #1a6cbc;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #1abc9c;
+    background-color: #1a6cbc;
     color: #ffffff;
 }
 
 a {
     text-decoration: none !important;
-    color: #1abc9c;
+    color: #1a6cbc;
 }
 
 a:hover,
@@ -106,7 +106,7 @@ button {
 }
 
 .main-color {
-    color: #1abc9c;
+    color: ##1a6cbc;
 }
 
 .page-body {
@@ -135,8 +135,8 @@ button {
 .content-page {
     padding-top: 30px;
     padding-bottom: 60px;
-    border-top: 1px dashed #dedede;
-    border-bottom: 1px dashed #dedede;
+    border-top: 1px dashed #1a6cbc;
+    border-bottom: 1px dashed #1a6cbc;
 }
 
 .grabbing {
@@ -187,7 +187,7 @@ button {
 }
 
 .button-style {
-    color: #1abc9c;
+    color: #1a6cbc;
     overflow: hidden;
 }
 
@@ -195,14 +195,14 @@ button {
     position: absolute;
     font-size: 27px;
     line-height: 38px;
-    color: #1abc9c;
+    color: #1a6cbc;
    -webkit-transition: all 0.3s;
    -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 .button-style:active:before {
-    color: #1abc9c;
+    color: #1a6cbc;
 }
 
 .button-anim:before {
@@ -278,7 +278,7 @@ button {
     top: 0px;
     font-size: 20px;
     color: #fff;
-    background: #1abc9c;
+    background: #1a6cbc;
     padding: 12px;
 }
 
@@ -313,7 +313,7 @@ button {
 }
 
 .menu-link li a:hover {
-    color: #1abc9c;
+    color: #1a6cbc;
 }
 
 
@@ -343,7 +343,7 @@ button {
 
 .my-detail .white-spacing {
     padding: 23px 0;
-    border-bottom: 1px dashed #cccccc;
+    border-bottom: 1px dashed #1a6cbc;
 }
 
 .my-detail h1 {
@@ -852,7 +852,7 @@ blockquote {
     font-size: 25px;
     line-height: 35px;
     font-weight: 600;
-    color: #1abc9c;
+    color: #1a6cbc;
     margin-bottom: 25px;
     letter-spacing: 0.5px;
 }
@@ -862,7 +862,7 @@ blockquote {
     line-height: 28px;
     padding: 20px;
     border-radius: 4px;
-    border: 1px dashed #1abc9c;
+    border: 1px dashed #1a6cbc;
     font-weight: 400;
 }
 	
@@ -1010,7 +1010,7 @@ blockquote {
 /* Footer */
 
 .footer {
-    background: url(../images/bg/pattern-bg.png);
+    /* background: url(../images/bg/pattern-bg.png); */
     background-repeat: repeat;
     text-align: center;
     padding: 30px 0;
