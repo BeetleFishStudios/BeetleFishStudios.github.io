@@ -49,6 +49,10 @@
 
 /* Global Style */
 
+@font-face {
+    font-family: Another America; src: url('fonts/Another America.otf');
+}
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -102,7 +106,11 @@ button {
 }
 
 #main {
-    margin: 50px 0;
+    margin: 0px 0;
+    background-image: url("background/Background.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+
 }
 
 .main-color {
@@ -120,10 +128,10 @@ button {
 
 .sub-title h2 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 350%;
     letter-spacing: 0.5px;
     font-weight: 600;
-
+    font-family: 'Another America';
 }
 
 .sub-title i {
@@ -287,6 +295,7 @@ button {
     padding: 25px;
     margin: 0;
     text-align: center;
+    background-color: #231f20; 
 }
 
 .menu-link:before,
@@ -306,17 +315,50 @@ button {
 
 .menu-link li a {
     display: block;
-    color: #333333;
+    color: white;
     text-align: center;
     font-size: 13px;
     transition: all 0.3s ease-in-out;
 }
 
 .menu-link li a:hover {
-    color: #1a6cbc;
+    color: #8c8c8c;
 }
 
+.menu-link2 {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    background-color: white; 
+}
 
+.menu-link2:before,
+.menu-link2:after {
+    content: " ";
+    display: table;
+}
+
+.menu-link2:after {
+    clear: both;
+}
+
+.menu-link2 li {
+    display: inline-block;
+    margin: 2px 4px;
+}
+
+.menu-link2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-link2 li a:hover {
+    color: #8c8c8c;
+}
 
 /* About Me (Left Sidebar) */	
 
@@ -344,15 +386,17 @@ button {
 .my-detail .white-spacing {
     padding: 23px 0;
     border-bottom: 1px dashed #1a6cbc;
+    background-color: #231f20;
 }
 
 .my-detail h1 {
     font-size: 20px;
     font-weight: 700;
+    color: white;
 }
 
 .my-detail span {
-    color: #c1c1c1;
+    color: #8c8c8c;
     font-weight: 400;
     line-height: 30px;
     font-size: 16px;
@@ -1029,6 +1073,7 @@ blockquote {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.8px;
+	color: black;
 }
 
 
@@ -1040,6 +1085,7 @@ blockquote {
   padding: 20px;
   margin: 0;
   text-align: center;
+  background-color: #231f20;
 }
 
 .social-icon:before,
@@ -1066,7 +1112,7 @@ blockquote {
   text-align: center;
   border: 0 none;
   border-radius: 50%;
-  font-size: 17px;
+  font-size: 36px;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   transition: all 0.3s ease-in-out;
 }
@@ -1266,7 +1312,7 @@ blockquote {
 @media only screen and (max-width:479px) {
 	
     #main {
-       margin: 15px 0;
+       margin: 0px 0;
      }
 	
     .sub-title {
@@ -1384,7 +1430,7 @@ blockquote {
        width: 30px;
        height: 30px;
        line-height: 32px;
-       font-size: 14px;
+       font-size: 26px;
     }
 	
     .load-more-button {
