@@ -1243,7 +1243,7 @@ blockquote {
        width: 30px;
        height: 30px;
        line-height: 33px;
-       font-size: 13px;
+       font-size: 30px;
     }
 	
     .social-icon li {
@@ -1265,7 +1265,15 @@ blockquote {
 }
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1300px) {
+
+	.menu-link li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+	}
 	
     .about-fixed {
        position: inherit;
